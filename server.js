@@ -28,6 +28,9 @@ app.get("/", function(req, res){
   res.render("index", {title: "Home"})
 })
 
+// Serve static files from the 'frontend' directory
+app.use(express.static(path.join(__dirname, 'frontend')));
+
 /* ***********************
  * Local Server Information
  * Values from .env (environment) file
