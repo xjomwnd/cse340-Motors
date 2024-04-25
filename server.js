@@ -30,12 +30,8 @@ app.get("/", function(req, res){
   res.render("index", {title: "Home"})
 })
 
-// Serve static files from the 'frontend' directory
-app.use(express.static(path.join(__dirname, 'frontend')));
-
-// Define a route to serve the HTML file
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+app.get('/checkerboard', (req, res) => {
+  res.render('checkerboard', { title: 'Checkerboard' });
 });
 
 /* ***********************
