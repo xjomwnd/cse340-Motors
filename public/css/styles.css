@@ -36,7 +36,7 @@ img {
   height: auto;
 }
 
-/******* checkerboard ********/
+/******* Responsive Grid Layout: ********/
 .checkerboard {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -58,7 +58,16 @@ img {
 .checkerboard .image-container {
   position: relative;
 }
+/*******  transitions or animations ********/
+.checkerboard img {
+  transition: transform 0.3s ease;
+}
 
+.checkerboard img:hover {
+  transform: scale(1.05);
+}
+
+/************* overlay effect ****************/
 .checkerboard .image-overlay {
   position: absolute;
   top: 0;
