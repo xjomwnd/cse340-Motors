@@ -33,6 +33,10 @@ app.get("/", function(req, res){
 // Serve static files from the 'frontend' directory
 app.use(express.static(path.join(__dirname, 'frontend')));
 
+// Define a route to serve the HTML file
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 /* ***********************
  * Local Server Information
