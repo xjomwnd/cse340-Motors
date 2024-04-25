@@ -43,3 +43,9 @@ body {
 .checkerboard img:hover {
   border-color: var(--secondary-color);
 }
+
+.checkerboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
