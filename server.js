@@ -31,6 +31,7 @@ app.get("/", function(req, res){
 // Serve static files from the 'frontend' directory
 app.use(express.static(path.join(__dirname, 'frontend')));
 
+
 /* ***********************
  * Local Server Information
  * Values from .env (environment) file
