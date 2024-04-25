@@ -1,0 +1,46 @@
+/* main.css */
+
+/* Default Styles */
+.checkerboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .checkerboard img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  /* Large Screen Styles */
+  @media (min-width: 992px) {
+    .checkerboard {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Medium Screen Styles */
+  @media (max-width: 991px) and (min-width: 768px) {
+    .checkerboard {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Small Screen Styles */
+  @media (max-width: 767px) {
+    .checkerboard {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Extra Small Screen Styles */
+  @media (max-width: 480px) {
+    .checkerboard {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Additional styles for other elements */
+  /* ... */
