@@ -35,3 +35,27 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/******* checkerboard ********/
+.checkerboard .image-container {
+  position: relative;
+}
+
+.checkerboard .image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.checkerboard .image-container:hover .image-overlay {
+  opacity: 1;
+}
