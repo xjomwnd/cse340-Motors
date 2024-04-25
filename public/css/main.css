@@ -1,4 +1,28 @@
 /* main.css */
+.site {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+
+/* Code for the header */
+header {
+  padding: 20px;
+}
+
+header img {
+  display: block;
+  float: left;
+}
+
+header p {
+  float: right;
+}
+
+.name-label {
+  font-size: 0.6em;
+  clear: both;
+  float: right;
+}
 
 /* Default Styles */
 .checkerboard {
