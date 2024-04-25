@@ -37,6 +37,24 @@ img {
 }
 
 /******* checkerboard ********/
+.checkerboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .checkerboard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .checkerboard {
+    grid-template-columns: 1fr;
+  }
+}
+
 .checkerboard .image-container {
   position: relative;
 }
