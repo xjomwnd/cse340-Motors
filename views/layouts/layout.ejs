@@ -6,34 +6,10 @@
     <div id="wrapper">
         <%- include('../partials/header') %>
         <%- include('../partials/navigation') %>    
-
-        <%- layout('layouts/layout.ejs') %>
         <main>
-            <section>
-                <h1>Welcome to CSE Motors!</h1>
-                <div>
-                  <p>DMC Delorean</p>
-                  <img src="/images/delorean.jpg" alt="DMC Delorean">
-                </div>
-                <div>
-                  <p>Views</p>
-                  <img src="/images/views.jpg" alt="Views">
-                </div>
-                <div>
-                  <p>DMC Delorean Thumbnails</p>
-                  <img src="/images/delorean-tn.jpg" alt="DMC Delorean Thumbnails">
-                </div>
-              </section>
-              <section>
-                <h2>DMC Delorean Revervations</h2>
-                <p>Reservations Available</p>
-                <div>
-                  <img src="/images/after.png" alt="After">
-                  <img src="/images/monster.png" alt="Monster">
-                  <img src="/images/choose.png" alt="Choose">
-                  <img src="/images/luxe.png" alt="Luxe">
-                </div>
-              </section>
+         
+  <%- body %>
+ 
         </main>
 
         <%- include('../partials/footer') %>
