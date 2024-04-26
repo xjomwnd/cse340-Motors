@@ -239,7 +239,8 @@ footer {
 }
 /************ MAIN IMAGES CSS ***************/
 main {
-  max-width: 1200px;
+  max-width: 1400px;
+  max-height: 900PX;
   margin: 0 auto;
 }
 
