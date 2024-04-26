@@ -25,19 +25,6 @@ header {
   text-align: flex;
   padding: 70px;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.my-account-btn {
-  order: 1; /* Pushes My Account button to the left */
-}
-
-.login-btn {
-  order: 3; /* Pushes Login button to the right */
-}
 
 nav {
   display: flex;
