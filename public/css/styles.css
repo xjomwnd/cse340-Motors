@@ -76,7 +76,7 @@ section div img {
 }
 
 /* Apply white background to the entire site */
-.site {
+.page {
   background-color: #fff;
   max-width: 700px;
 }
