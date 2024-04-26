@@ -82,14 +82,20 @@ section div img {
 }
 
 /* Apply blue margin */
-.container {
+.main-container {
   margin: 20px;
   border: 2px solid blue;
   padding: 10px;
+  background-color: white; /* Sets the background color of the container to white */
+  padding: 20px; /* Adds some padding inside the container */
+  max-width: 700px;
+  max-height: 700px;
 }
 .container {
   background-color: white; /* Sets the background color of the container to white */
   padding: 20px; /* Adds some padding inside the container */
+  max-width: 700px;
+  max-height: 700px;
 }
 
 /* Style images */
