@@ -113,8 +113,8 @@ main {
   background-color: white;
   border: 10px solid blue;
   padding: 20px;
-  max-width: 900px; /* Set the maximum width */
-  max-height: 1000px; /* Set the maximum height */
+  max-width: 800px; /* Set the maximum width */
+  max-height: 600px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
 }
 
@@ -123,8 +123,8 @@ main {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  max-width: 900px; /* Set the maximum width */
-  max-height: 1000px; /* Set the maximum height */
+  max-width: 800px; /* Set the maximum width */
+  max-height: 600px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
 }
 
