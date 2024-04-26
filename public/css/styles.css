@@ -84,7 +84,7 @@ section div img {
 /* Styles for the CSE340 site */
 
 /* Apply blue ribbon */
-.ribbon {
+.container {
   position: relative;
   background-color: blue;
   color: white;
@@ -92,7 +92,7 @@ section div img {
 }
 
 /* Styles for the main container */
-.main-container {
+.container {
   margin: 20px; /* Sets a margin of 20px around the container */
   border: 2px solid blue; /* Adds a solid blue border with a thickness of 2px */
   padding: 10px; /* Adds some padding inside the container */
