@@ -11,7 +11,14 @@ const env = require("dotenv").config()
 const app = express()
 const static = require("./routes/static")
 const path = require("path");
+const sharp = require('sharp');
 
+// Read an image and resize it
+sharp('input.jpg')
+  .resize(800, 600)
+  .toFile('output.jpg', (err, info) => {
+    // Output resized image
+  });
 
 /* ***********************
  * View Engine and Templates
