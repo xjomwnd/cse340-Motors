@@ -27,7 +27,14 @@ header {
 }
 /*///////////*/
 /* CSE340Motors Button */
-/* CSE340Motors Button */
+/* Buttons Container */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--white);
+}
+
 .cse340-motors-btn {
   color: var(--bright-red);
   text-align: right;
