@@ -87,6 +87,10 @@ section div img {
   border: 2px solid blue;
   padding: 10px;
 }
+.container {
+  background-color: white; /* Sets the background color of the container to white */
+  padding: 20px; /* Adds some padding inside the container */
+}
 
 /* Style images */
 .image-container {
