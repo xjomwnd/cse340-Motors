@@ -126,7 +126,6 @@ header p {
   
   section {
     margin-bottom: 20px;
-    image: url("../images/upgrades/bumper_sticker.jpg");
   }
   
   section div {
@@ -136,8 +135,6 @@ header p {
   section div img {
     max-width: 100%;
     height: auto;
-    image: url("../images/upgrades/flame.jpg");
-  }
   }
   
   .container {
