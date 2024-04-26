@@ -25,6 +25,34 @@ header {
   text-align: flex;
   padding: 70px;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-account-btn {
+  order: 1; /* Pushes My Account button to the left */
+}
+
+.login-btn {
+  order: 3; /* Pushes Login button to the right */
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Three columns: auto for My Account, 1fr for logo, and auto for Login */
+  align-items: center;
+}
+
+.my-account-btn {
+  justify-self: start; /* Aligns My Account button to the start (left) */
+}
+
+.login-btn {
+  justify-self: end; /* Aligns Login button to the end (right) */
+}
+
 
 nav {
   display: flex;
