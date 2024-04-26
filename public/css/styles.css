@@ -26,6 +26,25 @@ header {
   padding: 70px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.cse340-motors-btn {
+  order: 1; /* Place cse340-Motors button first */
+}
+
+.my-account-btn {
+  order: 3; /* Place My Account button last */
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
