@@ -23,7 +23,7 @@ header {
   background-color: #333;
   color: #fff;
   text-align: flex;
-  padding: 70px;
+  padding: 50px;
 }
 
 nav {
@@ -207,5 +207,5 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 70px;
+  padding: 50px;
 }
