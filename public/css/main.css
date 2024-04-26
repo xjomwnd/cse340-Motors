@@ -52,9 +52,9 @@ main {
   /* Additional styles for other elements */
  /* main.css */
 .site {
-  max-width: 1400px;
+  max-width: 992px;
   background-color: #ffffff;
-  max-height: 900px;
+  max-height: 1200px;
 }
 
 /* Code for the header */
