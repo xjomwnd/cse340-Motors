@@ -107,6 +107,27 @@ main {
   margin: 20px; /* Adjust the margin width as needed */
   padding: 20px; /* Add some padding inside the margin */
 }
+
+/* For a blue border */
+main {
+  background-color: white;
+  border: 10px solid blue;
+  padding: 20px;
+  max-width: 800px; /* Set the maximum width */
+  max-height: 600px; /* Set the maximum height */
+  overflow: auto; /* Add scrollbars if content exceeds max-height */
+}
+
+/* For a blue margin */
+main {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  max-width: 800px; /* Set the maximum width */
+  max-height: 600px; /* Set the maximum height */
+  overflow: auto; /* Add scrollbars if content exceeds max-height */
+}
+
 /* Style images */
 .image-container {
   display: flex;
