@@ -95,6 +95,18 @@ section div img {
   max-width: 800px;
   min-height: auto;
 }
+main {
+  background-color: white;
+  border: 10px solid blue; /* Adjust the border width as needed */
+  padding: 20px; /* Add some padding inside the border */
+}
+
+/* For a blue margin */
+main {
+  background-color: white;
+  margin: 20px; /* Adjust the margin width as needed */
+  padding: 20px; /* Add some padding inside the margin */
+}
 
 /* Style images */
 .image-container {
