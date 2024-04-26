@@ -50,7 +50,7 @@ nav ul li a {
 /* Main Content */
 /* Center the main content area */
 main {
-  max-width: 700px; /* Set a maximum width for the content */
+  max-width: 1000px; /* Set a maximum width for the content */
   margin: 0 auto; /* This will center the element horizontally */
   padding: 20px; /* Add some padding for better spacing */
 }
@@ -85,7 +85,7 @@ section div img {
 /* Apply white background to the entire site */
 .page {
   background-color: #fff;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 /* Styles for the CSE340 site */
@@ -99,7 +99,7 @@ main {
   background-color: white; /* Sets the background color of the main element to white */
   border-top: 20px solid blue; /* Sets a blue border on the top of the main element */
   padding: 20px; /* Adds some padding inside the main element */
-  max-width: 700px;
+  max-width: 1000px;
   min-height: auto;
 }
 main {
@@ -126,7 +126,7 @@ main {
   background-color: white;
   border: 10px solid blue;
   padding: 20px;
-  max-width: 700px; /* Set the maximum width */
+  max-width: 1000px; /* Set the maximum width */
   max-height: 900px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
   justify-content: center;
@@ -137,7 +137,7 @@ main {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  max-width: 700px; /* Set the maximum width */
+  max-width: 1000px; /* Set the maximum width */
   max-height: 900px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
   justify-content: center;
