@@ -26,7 +26,20 @@ header {
   padding: 70px;
 }
 /*///////////*/
+/* CSE340Motors Button */
+.cse340-motors-btn {
+  color: var(--bright-red);
+  flex: auto;
+  text-align: right;
+}
 
+/* MyAccount Button */
+.my-account-btn {
+  color: var(--bright-red);
+  margin-left: 20px;
+  flex: auto;
+  text-align: left;
+}
 /*//////////*/
 nav {
   display: flex;
