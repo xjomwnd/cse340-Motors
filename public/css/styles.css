@@ -29,17 +29,27 @@ header {
 /* CSE340Motors Button */
 .cse340-motors-btn {
   color: var(--bright-red);
-  flex: auto;
   text-align: right;
+  flex: 1; /* Equal width distribution */
 }
 
 /* MyAccount Button */
 .my-account-btn {
   color: var(--bright-red);
-  margin-left: 20px;
-  flex: auto;
   text-align: left;
+  margin-left: 20px;
+  flex: 1; /* Equal width distribution */
 }
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+  .cse340-motors-btn,
+  .my-account-btn {
+    text-align: center; /* Center align buttons on smaller screens */
+    margin: 10px; /* Add margin for better spacing */
+  }
+}
+
 /*//////////*/
 nav {
   display: flex;
