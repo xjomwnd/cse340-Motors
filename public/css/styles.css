@@ -84,7 +84,7 @@ section div img {
 /* Styles for the CSE340 site */
 
 /* Apply blue margin */
-.main {
+main {
   margin-top: 20px; /* Sets a top margin of 20px */
   margin-right: 20px; /* Sets a right margin of 20px */
   margin-bottom: 20px; /* Sets a bottom margin of 20px */
