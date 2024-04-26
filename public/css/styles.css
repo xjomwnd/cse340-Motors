@@ -82,6 +82,7 @@ section div img {
 
 /* Apply blue margin */
 .container {
+  max-width: 700px;
   margin: 20px;
   border: 2px solid blue;
   padding: 10px;
