@@ -238,37 +238,3 @@ footer {
   padding: 70px;
 }
 /************ MAIN IMAGES CSS ***************/
-main {
-  max-width: 1400px;
-  max-height: 1200px;
-  margin: 0 auto;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-section div {
-  margin-bottom: 10px;
-}
-
-section div img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image-container {
-  flex: 1;
-  margin-right: 10px; /* Adjust margin as needed */
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-}
- 
