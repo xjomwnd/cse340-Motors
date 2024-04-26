@@ -47,7 +47,7 @@ nav ul li a {
 
 /* Main Content */
 main {
-  max-width: 900px;
+  max-width: 700px;
   margin: 20px auto;
   padding: 20px;
 }
@@ -75,7 +75,7 @@ section div img {
 }
 
 /* Apply white background to the entire site */
-body {
+.site {
   background-color: #fff;
 }
 
