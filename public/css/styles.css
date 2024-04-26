@@ -81,22 +81,26 @@ section div img {
   max-width: 700px;
 }
 
-/* Apply blue margin */
+/* Styles for the CSE340 site */
+
+/* Apply blue ribbon */
+.ribbon {
+  position: relative;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Styles for the main container */
 .main-container {
-  margin: 20px;
-  border: 2px solid blue;
-  padding: 10px;
+  margin: 20px; /* Sets a margin of 20px around the container */
+  border: 2px solid blue; /* Adds a solid blue border with a thickness of 2px */
+  padding: 10px; /* Adds some padding inside the container */
   background-color: white; /* Sets the background color of the container to white */
-  padding: 20px; /* Adds some padding inside the container */
-  max-width: 700px;
-  max-height: 700px;
+  max-width: 700px; /* Sets the maximum width of the container to 700px */
+  max-height: 700px; /* Sets the maximum height of the container to 700px */
 }
-.container {
-  background-color: white; /* Sets the background color of the container to white */
-  padding: 20px; /* Adds some padding inside the container */
-  max-width: 700px;
-  max-height: 700px;
-}
+
 
 /* Style images */
 .image-container {
