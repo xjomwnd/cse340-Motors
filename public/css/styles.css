@@ -94,13 +94,7 @@ section div img {
 }
 
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 70px;
-}
+
 /******* Responsive Grid Layout: ********/
 .checkerboard {
   display: grid;
@@ -151,4 +145,11 @@ footer {
 .checkerboard .image-container:hover .image-overlay {
   opacity: 1;
 }
-/*************              
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 70px;
+}
