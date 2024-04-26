@@ -39,6 +39,7 @@ header {
   color: var(--bright-red);
   text-align: right;
   right: 10px;
+  display: right;
   flex-grow: 1; /* Grow to take available space */
 }
 
@@ -47,6 +48,7 @@ header {
   color: var(--bright-red);
   text-align: left;
   left: 10px;
+  display: left;
   margin-left: auto; /* Push to the left as much as possible */
 }
 
