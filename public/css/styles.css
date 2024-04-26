@@ -122,6 +122,9 @@ main {
   max-width: 800px; /* Set the maximum width */
   max-height: 600px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* For a blue margin */
@@ -132,6 +135,9 @@ main {
   max-width: 800px; /* Set the maximum width */
   max-height: 600px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Style images */
