@@ -11,21 +11,18 @@ const env = require("dotenv").config()
 const app = express()
 const static = require("./routes/static")
 const path = require("path");
-const sharp = require('sharp');
-console.log('Script is running');
 
-// Read an image and resize it
-sharp('./image.jpg') // Replace 'image.jpg' with the actual filename
-  .resize(800, 600)
-  .toFile('output.jpg', (err, info) => {
-    // ...
-  });
+// Serve static files (including images) from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
 
-  sharp('C:/path/to/your/image.jpg')
-  .resize(800, 600)
-  .toFile('output.jpg', (err, info) => {
-    // ...
-  });
+// Define a route to handle image requests
+app.get('/images/:imageName', (req, res) => {
+    const { imageName } = req.params;
+    // Construct the path to the image file
+    const imagePath = path.join(__dirname, 'public', 'images', imageName);
+    // Send the image file as the response
+    res.sendFile(imagePath);
+});
 
 /* ***********************
  * View Engine and Templates
