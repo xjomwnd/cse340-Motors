@@ -15,14 +15,16 @@ const sharp = require('sharp');
 console.log('Script is running');
 
 // Read an image and resize it
-sharp('input.jpg')
+sharp('./image.jpg') // Replace 'image.jpg' with the actual filename
   .resize(800, 600)
   .toFile('output.jpg', (err, info) => {
-    if (err) {
-      console.error(err);
-    } else {
-      console.log('Image resized successfully');
-    }
+    // ...
+  });
+
+  sharp('C:/path/to/your/image.jpg')
+  .resize(800, 600)
+  .toFile('output.jpg', (err, info) => {
+    // ...
   });
 
 /* ***********************
