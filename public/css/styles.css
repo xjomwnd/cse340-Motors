@@ -26,31 +26,6 @@ header {
   padding: 70px;
 }
 /*///////////*/
-/* CSE340Motors Button */
-/* Buttons Container */
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: var(--white);
-}
-
-.Return-to-home-page {
-  color: var(--bright-red);
-  text-align: right;
-  right: 10px;
-  display: right;
-  flex-grow: 1; /* Grow to take available space */
-}
-
-/* MyAccount Button */
-.account {
-  color: var(--bright-red);
-  text-align: left;
-  left: 10px;
-  display: left;
-  margin-left: auto; /* Push to the left as much as possible */
-}
 
 /*//////////*/
 nav {
