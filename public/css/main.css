@@ -136,6 +136,8 @@ header p {
   section div img {
     max-width: 100%;
     height: auto;
+    image: url("../images/upgrades/flame.jpg");
+  }
   }
   
   .container {
