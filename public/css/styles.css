@@ -30,6 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #e61111;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #e61111;
   text-decoration: none;
 }
 
