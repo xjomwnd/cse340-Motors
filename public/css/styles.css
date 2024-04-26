@@ -212,6 +212,8 @@ main {
 
 section {
   margin-bottom: 20px;
+  image: url("../images/site/favicon-32x32.png");
+}
 }
 
 section div {
