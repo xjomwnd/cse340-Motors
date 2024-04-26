@@ -93,11 +93,6 @@ section div img {
 
 /* Styles for the main container */
 .main-container {
-  margin: 20px; /* Sets a margin of 20px around the container */
-  max-width: 700px; /* Sets the maximum width of the container to 700px */
-  max-height: 700px; /* Sets the maximum height of the container to 700px */
-}
-.container {
   border: 2px solid blue; /* Adds a solid blue border with a thickness of 2px */
   padding: 10px; /* Adds some padding inside the container */
   background-color: white; /* Sets the background color of the container to white *
