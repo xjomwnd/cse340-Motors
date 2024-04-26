@@ -12,12 +12,17 @@ const app = express()
 const static = require("./routes/static")
 const path = require("path");
 const sharp = require('sharp');
+console.log('Script is running');
 
 // Read an image and resize it
 sharp('input.jpg')
   .resize(800, 600)
   .toFile('output.jpg', (err, info) => {
-    // Output resized image
+    if (err) {
+      console.error(err);
+    } else {
+      console.log('Image resized successfully');
+    }
   });
 
 /* ***********************
