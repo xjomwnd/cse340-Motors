@@ -35,7 +35,7 @@ header {
   background-color: var(--white);
 }
 
-.cse340-motors-btn {
+.Return-to-home-page {
   color: var(--bright-red);
   text-align: right;
   right: 10px;
@@ -44,7 +44,7 @@ header {
 }
 
 /* MyAccount Button */
-.my-account-btn {
+.account {
   color: var(--bright-red);
   text-align: left;
   left: 10px;
