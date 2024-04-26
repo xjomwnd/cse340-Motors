@@ -26,16 +26,6 @@ header {
   padding: 70px;
 }
 
-/* Header Styles */
-header {
-  background-color: var(--dark-gray);
-  color: var(--bright-red);
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* CSE340Motors Button */
 .cse340-motors-btn {
   background-color: transparent;
