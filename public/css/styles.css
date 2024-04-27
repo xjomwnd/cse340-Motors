@@ -131,7 +131,9 @@ main {
   max-width: 992px; /* Set the maximum width */
   max-height:1200px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
-  justify-content: center;
+  display: flex; /* Use flexbox for positioning */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
 }
 
 /* For a blue margin */
