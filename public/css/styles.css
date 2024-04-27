@@ -52,7 +52,7 @@ nav ul li a {
 /* Main Content */
 /* Center the main content area */
 main {
-  max-width: 1400px; /* Set a maximum width for the content */
+  max-width: 992px; /* Set a maximum width for the content */
   margin: 0 auto; /* This will center the element horizontally */
   padding: 20px; /* Add some padding for better spacing */
 }
@@ -101,7 +101,7 @@ main {
   background-color: white; /* Sets the background color of the main element to white */
   border-top: 20px solid blue; /* Sets a blue border on the top of the main element */
   padding: 20px; /* Adds some padding inside the main element */
-  max-width: 1400px;
+  max-width: 992px;
   min-height: auto;
 }
 main {
@@ -128,12 +128,10 @@ main {
   background-color: white;
   border: 10px solid blue;
   padding: 20px;
-  max-width: 1400px; /* Set the maximum width */
-  max-height:900px; /* Set the maximum height */
+  max-width: 992px; /* Set the maximum width */
+  max-height:1200px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
-  display: flex; /* Use flexbox for positioning */
-  align-items: center; /* Vertically center content */
-  justify-content: center; /* Horizontally center content */
+  justify-content: center;
 }
 
 /* For a blue margin */
@@ -141,13 +139,10 @@ main {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  max-width: 1400px;
-  max-height: 900px;
+  max-width: 992px; /* Set the maximum width */
+  max-height: 1200px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
-  overflow: auto;
-  display: flex; /* Use flexbox for positioning */
-  align-items: center; /* Vertically center content */
-  justify-content: center; /* Horizontally center content */
+  justify-content: center;
 }
 
 /* Style images */
@@ -211,7 +206,7 @@ main {
 }
 /************ MAIN IMAGES CSS ***************/
 main {
-  max-width: 1400px;
+  max-width: 992px;
   margin: 0 auto;
 }
 
@@ -227,12 +222,6 @@ section div img {
   max-width: 100%;
   height: auto;
 }
-
-.container {
-  display: flex;
-  flex-direction: column; /* Change flex-direction to column */
-}
-
 
 .container {
   display: flex;
