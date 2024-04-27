@@ -102,7 +102,7 @@ main {
   border-top: 20px solid blue; /* Sets a blue border on the top of the main element */
   padding: 20px; /* Adds some padding inside the main element */
   max-width: 1200px;
-  max-height: 992;
+  max-height: 1400;
 }
 main {
   background-color: white;
@@ -129,7 +129,7 @@ main {
   border: 10px solid blue;
   padding: 20px;
   max-width: 1200px; /* Set the maximum width */
-  max-height:992px; /* Set the maximum height */
+  max-height:1400px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
   justify-content: center;
 }
@@ -140,7 +140,7 @@ main {
   margin: 20px;
   padding: 20px;
   max-width:1200px; /* Set the maximum width */
-  max-height: 992px; /* Set the maximum height */
+  max-height: 1400px; /* Set the maximum height */
   overflow: auto; /* Add scrollbars if content exceeds max-height */
   justify-content: center;
 }
