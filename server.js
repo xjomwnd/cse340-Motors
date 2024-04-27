@@ -12,11 +12,11 @@ const app = express()
 const static = require("./routes/static")
 const path = require("path");
 
-// Serve static files from the 'public' directory
-app.use(express.static('public'));
+// Define the directory where your static files are located
+const publicDirectoryPath = path.join(__dirname, 'public');
 
-// Serve static files (including images) from the 'public' directory
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from the 'public' directory
+app.use(express.static(publicDirectoryPath));
 
 // Define a route to handle image requests
 app.get('/images/:imageName', (req, res) => {
