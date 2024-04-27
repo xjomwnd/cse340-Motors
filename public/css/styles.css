@@ -139,10 +139,12 @@ main {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  max-width: 992px; /* Set the maximum width */
-  max-height: 1200px; /* Set the maximum height */
-  overflow: auto; /* Add scrollbars if content exceeds max-height */
-  justify-content: center;
+  max-width: 992px;
+  max-height: 1200px;
+  overflow: auto;
+  display: flex; /* Use flexbox for positioning */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
 }
 
 /* Style images */
