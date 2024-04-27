@@ -51,9 +51,9 @@
     /* Additional styles for other elements */
    /* main.css */
   .site {
-    max-width: 992px;
+    max-width: 1200px;
     background-color: #ffffff;
-    max-height: 1200px;
+    max-height: 992px;
   }
   /* Code for the header */
   header {
